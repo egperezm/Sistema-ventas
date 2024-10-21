@@ -24,15 +24,26 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - 4)	Luego abrir Visual Studio Code 1.93.
 - 5)	Luego abrir la carpeta que ha descomprimido desde Visual studio code 1.93.
 - 6)	Al abrir la carpeta debe crear cuatro carpetas desde la raiz main , controladores, modelos, repositorios y seguridad.
-# Controladores, Modelos, Repositorios, Seguridad
+# Controladores
 7)	Dentro de la carpeta controller debe crear las clases .java, con los siguientes nombres. 
 -	Contactocontrolador.java,	-	EmpresaControlador.java
 -	PedidoControlador.java		-	ProductoControlador.java
 -	UsuarioControlador.java
-# 8) modelos 
+# modelos, 
 - debe crear las clases .java, con los siguientes nombres.
 -	Contacto.java	-	Empresa.java
 -	Pedido.java	-	Producto.java
 -	Usuario.java
+# repositorios, 
+- debe crear clases .java, con los siguientes nombres. 
+-	ContactoRepositorio.java		-	EmpresaRepositorio.java
+-	PedidoRepositorio.java		-	ProductoRepositorio.java
+-	UsuarioRepositorio.java
+# seguridad, 
+- debe crear las clases.java, con los siguientes nombres.
+-	SeguridadConfig.java
+-	SistemaVentasApplication.java
+
+
 
 
