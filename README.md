@@ -18,7 +18,7 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - 1.12	Validatión
 - 1.13	Spring Boot Actuator
 - Como lo lo muestra la siguiente imagen
-## ![image](https://github.com/user-attachments/assets/30250126-ead0-4609-83ec-dc3c416b0f99)
+- ## ![image](https://github.com/user-attachments/assets/30250126-ead0-4609-83ec-dc3c416b0f99)
 - 2)	Luego seleccionar GENERATE, el archivo se generará en su carpeta de descargas (o la que tenga seleccionada por default.).
 - 3)	Extraer el archivo con 7-zip 24.08 o Winrar7.0. 
 - 4)	Luego abrir Visual Studio Code 1.93.
