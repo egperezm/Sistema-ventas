@@ -29,17 +29,17 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 -	Contactocontrolador.java,	-	EmpresaControlador.java
 -	PedidoControlador.java		-	ProductoControlador.java
 -	UsuarioControlador.java
-# modelos. 
+# Modelos. 
 - debe crear las clases .java, con los siguientes nombres.
 -	Contacto.java	-	Empresa.java
 -	Pedido.java	-	Producto.java
 -	Usuario.java
-# repositorios. 
+# Repositorios. 
 - debe crear clases .java, con los siguientes nombres. 
 -	ContactoRepositorio.java		-	EmpresaRepositorio.java
 -	PedidoRepositorio.java		-	ProductoRepositorio.java
 -	UsuarioRepositorio.java
-# seguridad.
+# Seguridad.
 - debe crear las clases.java, con los siguientes nombres.
 -	SeguridadConfig.java
 -	SistemaVentasApplication.java
