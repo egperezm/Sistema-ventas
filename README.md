@@ -51,13 +51,29 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - 3)	PedidoControlador: Maneja las opereraciones CRUD para la entidad pedido permitiendo a los usuarios, crear, consultar, actualizar y eliminar pedidos.
 - 4)	ProductoControlador: se encargará de manejar las operaciones CRUD, para la entidad producto de los artículos que se vendan.
 - 5)	UsuarioControlador: manejará las operaciones CRUD, relacionados con los usuarios del sistema tanto clientes como administradores.
-# Dependecias Controlador.
-1)	ContactoControlador.java:
+# Dependecias Controlador.JAVA
 -	getAllContactos(): devuelve la lista de todos los contactos
 -	getContactosById(String id): busca el contacto o un contacto específico por su ID. Si el contacto existe lo devuelve.
 -	CreateContacto (Contacto contacto): Crea un nuevo contacto basado en la solicitud (@RequesteBody)
 -	updateContacto (String id, Contacto contactodetalles): Actualiza un contacto existente identificado por su ID.
 -	deleteContacto (string id): Elimina un contacto por su ID
+-	## ![image](https://github.com/user-attachments/assets/5715bc15-c84c-4df1-8a02-5764d2e2716d)
+## 2)	EmpresaControlador.java:
+-	getAllEmpresas(): devuelve la lista de todas las empresas.
+-	getEmpresaById(String id): busca una empresa especifica por su ID si la empresa existe, la devuelve.
+-	createEmpresa(Empresa empresa): crea una empresa basada en el cuerpo de la solicitud (@RequestBody).
+-	updateEmpresa(String id, empresa empresadetalles): actualiza una empresa existente identificada por su ID.
+-	DeleteEmpresa(string id): Elimina una empresa por su ID.
+- ## ![image](https://github.com/user-attachments/assets/ed4f9e4d-37dc-4e33-a39c-21ef9b4b2acb)
+# 3)	PedidoControlador.java:
+-	getAllPedido(): Devuelve una lista de todos los pedidos
+-	getPedidoById(String id): Busca un pedido específico por su ID, si el pedido existe, lo devuelve.
+-	createPedido(Pedido pedido): Crea un nuevo pedido basado en el cuerpo de la solicitud(@RequestBody)
+-	updatePedido(String id, Pedido Pedidodetalles): Actualiza un pedido existente identificado por su ID
+-	deletePedido(String id): Elimina un pedido por su ID.
+
+
+
 
 
 
