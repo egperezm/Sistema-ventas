@@ -45,6 +45,20 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 -	SistemaVentasApplication.java
 - Les debe quedar así como lo muestra la siguiente imagen
 - ## ![image](https://github.com/user-attachments/assets/b8544c53-0a36-40fe-a93b-bff6a2aa319b)
+# Definición de clases controlador.
+- 1)	ContactoControlador: Este representa los contactos relacionados con la empresa es necesario para manejar las operaciones. Crear, leer, actualizar y eliminar (CRUD).
+- 2)	EmpresaControlador: Este controlador permite realizar las operaciones CRUD, sobre la entidad empresa para ofrecer los productos.
+- 3)	PedidoControlador: Maneja las opereraciones CRUD para la entidad pedido permitiendo a los usuarios, crear, consultar, actualizar y eliminar pedidos.
+- 4)	ProductoControlador: se encargará de manejar las operaciones CRUD, para la entidad producto de los artículos que se vendan.
+- 5)	UsuarioControlador: manejará las operaciones CRUD, relacionados con los usuarios del sistema tanto clientes como administradores.
+# Dependecias Controlador.
+1)	ContactoControlador.java:
+-	getAllContactos(): devuelve la lista de todos los contactos
+-	getContactosById(String id): busca el contacto o un contacto específico por su ID. Si el contacto existe lo devuelve.
+-	CreateContacto (Contacto contacto): Crea un nuevo contacto basado en la solicitud (@RequesteBody)
+-	updateContacto (String id, Contacto contactodetalles): Actualiza un contacto existente identificado por su ID.
+-	deleteContacto (string id): Elimina un contacto por su ID
+
 
 
 
