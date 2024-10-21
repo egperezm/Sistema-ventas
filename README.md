@@ -43,6 +43,9 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - debe crear las clases.java, con los siguientes nombres.
 -	SeguridadConfig.java
 -	SistemaVentasApplication.java
+- Les debe quedar así como lo muestra la siguiente imagen
+- ## ![image](https://github.com/user-attachments/assets/b8544c53-0a36-40fe-a93b-bff6a2aa319b)
+
 
 
 
