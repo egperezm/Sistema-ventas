@@ -86,6 +86,31 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 -	updateUsuario(String id, Usuario usuariodetalles): Actualiza un ususario existente identificado por su ID.
 -	deleteUsuario(string id): Elimina un usuario por su ID.
 - ## ![image](https://github.com/user-attachments/assets/b219c606-8a78-4343-a314-113bd4c3d399)
+# Definición de Clases modelos
+1)	Entidad Contacto: @document (collection “contactos”), Esto le dice a mongoDB que clase se mapea con la colección contactos en la base de datos. En caso de JPA seria @Entity
+1.1	Atributos: id, email, nombre, teléfono.
+1.2 Constructor por defecto: se necesita para que mongoDB pueda instanciar objetos de la clase.
+1.3	Constructor por parámetros: se utiliza para facilitar la creación de objetos Contacto con todos los datos necesario.
+1.4	Getters y Setters: Estos métodos permiten acceder y modificar los valores de los atributos de la clase Contacto.
+- ## ![image](https://github.com/user-attachments/assets/2e005389-4501-42dd-8137-30bcd85dfcd6)
+# Entidad Empresa: 
+- 2 @document (collection “empresas”): esto indica que la clase Empresa se mapea con la colección empresas en la base de datos de MongoDB.
+- 2.1	Atributos: id, nombre, dirección, teléfono.
+- 1.5	Constructor por defecto: necesario para que mongoDB pueda instanciar objetos de la clase Empresa.
+- 1.6	Constructor por parámetros: crea instancias de Empresa con todos los campos inicializados.
+- 1.7	Getters y Setters: Estos métodos permiten acceder y modificar los valores de los atributos de la clase empresa.
+- ## ![image](https://github.com/user-attachments/assets/e67164b2-8593-4be3-8a9b-0e2ffe4e6f8c)
+# Entidad Pedido: 
+- 3 Contiene una lista de objetos Producto, -se menciona como recordatorio- @Document (collection = “pedidos”): La clase pedido se mapea con la colección pedidos en la base de datos de MongoDB.
+- 3.1)	Atributos: id, clienteid, productosIds, total.
+- 3.2)	Constructor por defecto: necesario para que mongoDB pueda instanaciar objetos de la clase Pedido
+- 3.3	Constructor con parámetros: útil para crear instancias de Pedido con todos los campos inicializados.
+- 3.4	Getters y Setters: Metodos para obtener y modificar los valores de los atributos del pedido.
+
+
+
+
+
  
 
 
