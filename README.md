@@ -163,6 +163,19 @@ Deberá visualizar la ejecución del Backend de la siguiente manera como se mues
 # Usuarios 
 Muestra la creación y conexión de productos para manejar las operaciones CRUD.
 - ## ![image](https://github.com/user-attachments/assets/1fb30678-8091-46a8-be41-4ed28716fc0f)
+# Ejecución del Frontend 
+- 1)	Es necesario tener instalado node.js y npm para la Creación del Frontend
+- 2)	Debe ejecutar el siguiente comando npx create-react (“el nombre que le colocaron”) en mi caso es npx create-react Sistema-Ventas-Front-End
+     Seguido deben ingresar a la carpeta con el siguiente comando cd Sistema-Ventas-Front-End, luego en el terminal escribir npm run dev para iniciar y debe mostrar la ejecución como la siguiente imagen.
+- 3)	Recuerde instalar Axios para manejar las solicitudes HTTP:
+  4)	sino lo tiene instalado ejecutar. Npm install axios
+- ## ![image](https://github.com/user-attachments/assets/3470894e-8fe5-4f73-a45c-744470a3b6ab)
+# Frontend local
+- ## ![image](https://github.com/user-attachments/assets/c08d201d-c05a-40f3-8c42-51fbb4fd94ea)
+# Localhost http://localhost:5173
+- ## ![image](https://github.com/user-attachments/assets/80165b7a-e020-4a28-bb4d-cf9e4617d1e1)
+
+
 
 
  
