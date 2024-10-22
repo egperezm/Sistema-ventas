@@ -107,13 +107,38 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - 3.3	Constructor con parámetros: útil para crear instancias de Pedido con todos los campos inicializados.
 - 3.4	Getters y Setters: Metodos para obtener y modificar los valores de los atributos del pedido.
 -  ## ![image](https://github.com/user-attachments/assets/81e55df4-9fc5-4c09-98aa-a5c3a7ea3029)
-- Entidad Producto:
+  # Entidad Producto:
 - 4 @Document(collection = “Productos”) indica que la clase de Producto se mapea con la colección productos en la base de datos MongoDB.
 - 4.1)	Atributos: id, nombre, categoria, precio, Stock.
 - 4.2)	Constructor por defecto: se necesita para que mongoDB pueda instanciar objetos de la clase Producto.
 - 4.3) 	Constructor con parametros: si se quiere utilizar para crear instancias de producto con todos los campos inicializados.
 - 4.4)	Getters y Setters: Metodos para obtener y modificar los valores de los atributos del producto.
 - ## ![image](https://github.com/user-attachments/assets/376a9b25-bbf2-4681-93c0-5c4c314bb2d0)
+# Entidad Usuario: 
+- 5 Contiene los detalles de los usuarios en el sistema @Document (collection = “usuarios”): indica a MongoDB que esta clase se mapea con la colección usuarios en la base de - datos.
+- 5.1)	Atributos: id, nombre, email, password, rol. En el caso de rol son los asociados al usuario, como cliente o administrador.
+- 5.2	Constructor por defecto: Necesario para que MongoDB, pueda instanciar los objetos de la clase usuario.
+- 5.3	Constructor con parámetros: es util para crear instancias de Usuario con todos los campos inicializados.
+- 5.4	Getters y Setters: Metodos para acceder y modificar los valores de los atributos de la clase Usuario.
+- ## ![image](https://github.com/user-attachments/assets/232cc4e6-05a3-4ee5-9869-89c1a833965c)
+# Definición clase Repositorio
+- 6)	ContactoRepositorio: Este respositorio se encarga de manejar las operacioes CRUD,	para la entidad Contacto utilizando Spring Data con MongoDB. El primer parámetro es la 	entidad (contacto), y el segundo es el tipo de la clave primaria que en este caso es String. porque es el id en MongoDB.
+- ## ![image](https://github.com/user-attachments/assets/83d581ef-d286-411c-8f1e-9dd7394baa7f)
+# 6.1)	EmpresaRepositorio:
+- Se encarga de manejar las operaciones CRUD para la entidad Empresa, utiliando SpringData con MongoDB. Al igual que ContactoRepositorio el primer parámetro  es la entidad (Empesa) y el segundo es el tipo de la clave primaria , que en este caso es String por el tipo de id en MongoDB.
+- ## ![image](https://github.com/user-attachments/assets/cf975a4b-d980-4984-992b-bcd9b7dbb94e)
+# 6.2)	PedidoRepositorio:
+- Se encarga de manejar las operaciones CRUD, para la entidad Pedido, Utilizando Spring Data con MongoDB. El primer parámetro es la entidad pedido y el segundo es el tipo de la clave primaria, que en este caso es String que es el tipo de id de MongoDB.
+- ## ![image](https://github.com/user-attachments/assets/1580e14f-de8d-469a-a208-1fe2272bc655)
+# 6.3)	ProductoRepositorio:
+- Maneja las operaciones CRUD, para la entidad Producto utilizando Spring Data MongoDB. ProductoRepositorio se extiende de MongoRepository, el primer parámetro es la entidad (Producto), y el segundo es el tipo de la clave primaria, que en este caso es String es el tipo de id en MongoDB.
+- ## ![image](https://github.com/user-attachments/assets/c3e92aab-26f6-446d-a9ed-1650a5f7ae9e)
+
+
+
+
+ 
+
 
 
 
