@@ -58,7 +58,7 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 -	updateContacto (String id, Contacto contactodetalles): Actualiza un contacto existente identificado por su ID.
 -	deleteContacto (string id): Elimina un contacto por su ID
 -	## ![image](https://github.com/user-attachments/assets/5715bc15-c84c-4df1-8a02-5764d2e2716d)
-## 2)	EmpresaControlador.java:
+# 2)	EmpresaControlador.java:
 -	getAllEmpresas(): devuelve la lista de todas las empresas.
 -	getEmpresaById(String id): busca una empresa especifica por su ID si la empresa existe, la devuelve.
 -	createEmpresa(Empresa empresa): crea una empresa basada en el cuerpo de la solicitud (@RequestBody).
@@ -71,6 +71,25 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 -	createPedido(Pedido pedido): Crea un nuevo pedido basado en el cuerpo de la solicitud(@RequestBody)
 -	updatePedido(String id, Pedido Pedidodetalles): Actualiza un pedido existente identificado por su ID
 -	deletePedido(String id): Elimina un pedido por su ID.
+- ## ![image](https://github.com/user-attachments/assets/20409fc4-e6c5-4793-900a-a0c7ada23d49)
+# 4)	Productocontrolador.java:
+-	getAllProductos(): Devuelve una lista de todos los productos
+-	getProductoById(String id): busca un producto por ID si el producto existe, lo devuelve.
+-	createProduct (Producto producto): Crea un nuevo producto basado en el cuerpo de la solicitud (@RequestBody)
+-	updateProduct(String id, Producto productoDetalles): Actualiza un product existente identificado por su ID.
+-	deleteProducto(string id): Elimina un producto por su ID.
+## ![image](https://github.com/user-attachments/assets/13cd6ba0-cddd-4e2a-81c2-5707c2e0d24b)
+# 5)	UsuarioControlador.java:
+-	getAllUsuarios(): Devuelve una lista de todos los usuarios regristrados en el sistema
+-	getusuarioById(String id): busca un usuario por ID si el usuario existe, lo devuelve.
+-	createUsuario (Usuario usuario): Crea un nuevo usuario basado en el cuerpo de la solicitud (@RequestBody)
+-	updateUsuario(String id, Usuario usuariodetalles): Actualiza un ususario existente identificado por su ID.
+-	deleteUsuario(string id): Elimina un usuario por su ID.
+- ## ![image](https://github.com/user-attachments/assets/b219c606-8a78-4343-a314-113bd4c3d399)
+ 
+
+
+
 
 
 
