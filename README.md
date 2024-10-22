@@ -147,6 +147,28 @@ Deberá visualizar la ejecución del Backend de la siguiente manera como se mues
 - ## ![image](https://github.com/user-attachments/assets/17da60e5-caac-4d2b-b59d-ce8721891deb)
 # Arquitectura
 - ## ![image](https://github.com/user-attachments/assets/81319552-e3f9-4623-a802-91801aa4cc7f)
+# Conexión a MongoDB Compass
+## Contactos 
+- Muestra la creación y conexión de contactos para manejar las operaciones CRUD.
+- ## ![image](https://github.com/user-attachments/assets/6f161b79-e984-4ffc-9070-d13c38db581c)
+# Empresas
+- Muestra la creación y conexión de empresas para manejar las operaciones CRUD.
+- ## ![image](https://github.com/user-attachments/assets/fac036b1-5ddb-4087-927a-e2b2ce7f032b)
+# Pedidos
+- Muestra la creación y conexión de pedidos para manejar las operaciones CRUD.
+- ## ![image](https://github.com/user-attachments/assets/0338708c-7d75-49b0-a441-2a654a672ebb)
+# Productos
+- Muestra la creación y conexión de productos para manejar las operaciones CRUD.
+- ## ![image](https://github.com/user-attachments/assets/0e82dff3-c46d-4eb2-b4df-9a69a9adfd8a)
+# Usuarios 
+Muestra la creación y conexión de productos para manejar las operaciones CRUD.
+- ## ![image](https://github.com/user-attachments/assets/1fb30678-8091-46a8-be41-4ed28716fc0f)
+
+
+ 
+
+
+
 
  
  
