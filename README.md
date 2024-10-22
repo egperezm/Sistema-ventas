@@ -1,4 +1,4 @@
-# Sistema-ventas
+# Sistema-Ventas
 Se sube el proyecto
 El objetivo de este proyecto es desarrollar un sistema de ventas en línea que permita a los usuarios realizar compras, gestionar inventarios y procesar pedidos. Cuenta con dos (2), tipos de perfiles cliente y administrador, un (1), carrito de compras, opciones de pago, y un sistema de gestión de artículos.
 # Pasos iniciales para el desarrollo
