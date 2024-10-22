@@ -133,6 +133,27 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 # 6.3)	ProductoRepositorio:
 - Maneja las operaciones CRUD, para la entidad Producto utilizando Spring Data MongoDB. ProductoRepositorio se extiende de MongoRepository, el primer parámetro es la entidad (Producto), y el segundo es el tipo de la clave primaria, que en este caso es String es el tipo de id en MongoDB.
 - ## ![image](https://github.com/user-attachments/assets/c3e92aab-26f6-446d-a9ed-1650a5f7ae9e)
+# 6.4) UsuarioRepositorio:
+- Este repositorio se encargará de manejar las operaciones CRUD, para la entidad Usuario, utilizando Spring Data con MongoDB. UsuarioRepositorio extiende de MongoRepository, que permite manejar las operaciones de crear, leer, actualizar y eliminar. El primer parámetro es la entidad (Usuario), y el segundo es el tipo de la clave primaria, que en este caso es String el tipo del id en MongoDB.
+- ## ![image](https://github.com/user-attachments/assets/8350b617-6e6c-4b8a-adc9-6f7d0dbf8419)
+# 7)	SeguridadConfig.java
+- Se configura la seguridad en la app utilizando SpringSecurity, como autenticación, autorizaciony filtros de seguridad. Permite el acceso público a ciertos endpoints como /api/products o api/empresas/. Ademas requiere autenticación para cualquier otro endpoint, se establece la autenticación básica http para las solicitudes auntenticadas
+- ## ![image](https://github.com/user-attachments/assets/0d838f57-a1f6-4359-b680-7f4ff0aa7d54)
+# Ejecutar el Backend 
+- presionando las teclas CMD+J, En el caso de MacOS o Control+J en el caso de un ambiente Windows. O presionar el siguiente botón como se muestra en la imagen.
+- ## ![image](https://github.com/user-attachments/assets/a49d6792-3967-4e5e-9b85-1641740e1788)
+- En el terminal escribir mvn spring-boot:run
+Deberá visualizar la ejecución del Backend de la siguiente manera como se muestra en la siguiente imagen utilizando el comando: mvn spring-boot:run
+- ## ![image](https://github.com/user-attachments/assets/17da60e5-caac-4d2b-b59d-ce8721891deb)
+# Arquitectura
+- ## ![image](https://github.com/user-attachments/assets/81319552-e3f9-4623-a802-91801aa4cc7f)
+
+ 
+ 
+
+
+ 
+
 
 
 
