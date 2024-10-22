@@ -106,6 +106,17 @@ El objetivo de este proyecto es desarrollar un sistema de ventas en línea que p
 - 3.2)	Constructor por defecto: necesario para que mongoDB pueda instanaciar objetos de la clase Pedido
 - 3.3	Constructor con parámetros: útil para crear instancias de Pedido con todos los campos inicializados.
 - 3.4	Getters y Setters: Metodos para obtener y modificar los valores de los atributos del pedido.
+-  ## ![image](https://github.com/user-attachments/assets/81e55df4-9fc5-4c09-98aa-a5c3a7ea3029)
+- Entidad Producto:
+- 4 @Document(collection = “Productos”) indica que la clase de Producto se mapea con la colección productos en la base de datos MongoDB.
+- 4.1)	Atributos: id, nombre, categoria, precio, Stock.
+- 4.2)	Constructor por defecto: se necesita para que mongoDB pueda instanciar objetos de la clase Producto.
+- 4.3) 	Constructor con parametros: si se quiere utilizar para crear instancias de producto con todos los campos inicializados.
+- 4.4)	Getters y Setters: Metodos para obtener y modificar los valores de los atributos del producto.
+- ## ![image](https://github.com/user-attachments/assets/376a9b25-bbf2-4681-93c0-5c4c314bb2d0)
+
+
+
 
 
 
