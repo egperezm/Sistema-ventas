@@ -174,4 +174,7 @@ Muestra la creación y conexión de productos para manejar las operaciones CRUD.
 - ## ![image](https://github.com/user-attachments/assets/c08d201d-c05a-40f3-8c42-51fbb4fd94ea)
 # Localhost http://localhost:5173
 - ## ![image](https://github.com/user-attachments/assets/80165b7a-e020-4a28-bb4d-cf9e4617d1e1)
+# Documento de desarrollo.pdf alberga información e imagenes con mejor calidad.
+- ## [ProyectoF.pdf](https://github.com/user-attachments/files/17589175/ProyectoF.pdf)
+
 
